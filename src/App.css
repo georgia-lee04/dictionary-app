@@ -1,15 +1,20 @@
 body {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(
+    179.4deg,
+    rgb(242, 209, 249) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
 }
 
 a {
   text-decoration: none;
-  color: #6882c9;
+  color: white;
   font-weight: bold;
+  text-shadow: 1px 1px 2px rgb(176, 81, 97), 0 0 1em blue, 0 0 0.2em blue;
 }
 
 a:hover {
-  color: #445582;
+  color: rgb(250, 221, 250);
 }
 
 .App {
@@ -24,4 +29,7 @@ a:hover {
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  color: white;
+  font-size: 12px;
+  text-shadow: 1px 1px 2px rgb(176, 81, 97), 0 0 1em blue, 0 0 0.2em blue;
 }
