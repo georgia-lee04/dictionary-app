@@ -8,13 +8,13 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: bold;
-  text-shadow: 1px 1px 2px rgb(176, 81, 97), 0 0 1em blue, 0 0 0.2em blue;
+  transition: 200ms all ease-in-out;
 }
 
 a:hover {
-  color: rgb(250, 221, 250);
+  text-shadow: 1px 1px 2px #4d4ea5;
 }
 
 .App {
@@ -29,7 +29,6 @@ a:hover {
 .App-footer {
   text-align: center;
   margin: 30px 0;
-  color: white;
+  color: black;
   font-size: 12px;
-  text-shadow: 1px 1px 2px rgb(176, 81, 97), 0 0 1em blue, 0 0 0.2em blue;
 }
